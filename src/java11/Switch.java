@@ -1,5 +1,10 @@
 package java11;
 
+/**
+ * break을 써줄 필요가 없어서
+ * 더욱 안전하고
+ * 가독성이 좋아진 switch문
+ */
 public class Switch {
     public static void main(String[] args) {
         String a = "A";
