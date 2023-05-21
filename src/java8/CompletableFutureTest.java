@@ -86,7 +86,6 @@ public class CompletableFutureTest {
 
         future.get();
     }
-
     /**
      * 두 작업이 이어서 실행하도록 조립, 앞선 결과를 받아서 사용가능
      * 함수영 인터페이스로 Fuction을 받음
