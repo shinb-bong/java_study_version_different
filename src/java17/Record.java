@@ -10,8 +10,9 @@ import java.util.List;
  * 하지만 record 클래스로 선언하면 Data Carrier 클래스임
  * 개발자에게 데이터 모델링에 집중하게 하는 것
  *
- * 추가로 JPA Entity에는 사용하면 안되지만(프록시 생성을 위해 final 사용 금지, 불변 객체여서 setter 사용못하는데 기본생성자 없음.)
+ * 추가로 JPA Entity에는 사용하면 안되지만(프록시 생성을 위해 final 사용 금지, 필수 명명 규칙을 따르지 않음)
  * Dto에는 유용함 record+ builder 는 추가 라이브러리를 사용해야한다한다.
+ * 하지만 기본 생성자는 만들어주니 Dto에 적합할듯하다.
  */
 public class Record {
     public static void main(String[] args) {
