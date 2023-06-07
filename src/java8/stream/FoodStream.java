@@ -80,9 +80,10 @@ public class FoodStream {
     public static List<Food> makeFoodList() {
         List<Food> foodList = new ArrayList<>();
         foodList.add(new Food("FlatBread",true,400,Food.Type.OTHER));
+        foodList.add(new Food("FlatBread",true,520,Food.Type.OTHER));
         foodList.add(new Food("OnionSoup",true,300,Food.Type.OTHER));
         foodList.add(new Food("LobsterRisotto",false,520,Food.Type.FISH));
-        foodList.add(new Food("CaesarSalad",true,200,Food.Type.OTHER));
+        foodList.add(new Food("FlatSalad",true,200,Food.Type.OTHER));
         foodList.add(new Food("BeefWellington",false,670,Food.Type.MEAT));
         foodList.add(new Food("FiletMignon",false,600,Food.Type.MEAT));
         foodList.add(new Food("CrispySalmon",false,620,Food.Type.FISH));
