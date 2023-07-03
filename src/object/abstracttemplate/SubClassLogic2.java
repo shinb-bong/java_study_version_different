@@ -1,8 +1,8 @@
 package object.abstracttemplate;
 
-public class SubClassLogic1 extends AbstractTemplate{
+public class SubClassLogic2 extends AbstractTemplate{
     @Override
     protected void call() {
-        System.out.println("SubClassLogic1.call");
+        System.out.println("SubClassLogic2.call");
     }
 }

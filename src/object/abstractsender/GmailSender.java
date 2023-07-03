@@ -1,9 +1,9 @@
 package object.abstractsender;
 
-public class KakaoSender extends ContentSender{
+public class GmailSender extends ContentSender{
     String content;
 
-    public KakaoSender(String title, String nm, String content) {
+    public GmailSender(String title, String nm, String content) {
         super(title, nm);
         this.content = content;
     }
@@ -17,7 +17,7 @@ public class KakaoSender extends ContentSender{
     }
 
     // 고유메소드
-    public void kakaoAlert(){
-        System.out.println("카톡! 카톡!");
+    public void gmailAlert(String recipient){
+        System.out.println("메일을 받는사람은 = "+ recipient);
     }
 }

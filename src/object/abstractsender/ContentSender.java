@@ -1,4 +1,4 @@
-package object;
+package object.abstractsender;
 
 public abstract class ContentSender {
     String title;
@@ -14,5 +14,5 @@ public abstract class ContentSender {
 
     // 추상메서드  --> 상속을 통해서 반드시 재정의 되어야지만 비로소 인스턴스를 생성 가능
     public abstract void sendMsg(String content);
-    
+
 }
