@@ -23,7 +23,7 @@ public class StringMethod {
 
         // 줄바꿈을 기준으로 분할된 스트림을 반환
         String multilineStr=  "Where shoud I \n go \n !!!!!";
-        System.out.println("===== show lines for stream");
+        System.out.println("===== show lines for java8.stream");
         Stream<String> stream =multilineStr.lines();
         stream.forEach(System.out::println);
         System.out.println("=====");

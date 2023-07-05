@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * java 8 stream 예제, 더블콜론 람다식 예제 설명
+ * java 8 java8.stream 예제, 더블콜론 람다식 예제 설명
  * 선언형: 더 간결하고 가독성이 좋아짐
  * 함수의 조립: 유연성이 좋아짐
  * 병렬화: 성능이 좋아짐
@@ -28,7 +28,7 @@ public class FoodStream {
         // 스트림은 반복의 일회성이다.
         Stream<Food> stream = foodList.stream();
         stream.forEach(System.out::println);
-//        stream.forEach(System.out::println); // 에러발생
+//        java8.stream.forEach(System.out::println); // 에러발생
 
 
         /**

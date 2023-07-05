@@ -1,4 +1,4 @@
-package stream;
+package java8.stream;
 
 import java8.Food;
 
@@ -103,7 +103,7 @@ public class StreamTest {
                 .map(Food::getName)
                 .collect(Collectors.toList());
         // map
-//        Map<String, Food> collect1 = makeFoodList().stream()
+//        Map<String, Food> collect1 = makeFoodList().java8.stream()
 //                .collect(Collectors.toMap(food -> food.getName(), food -> food));// key, value + 현재 중복키 발생가능
         Map<String, Food> collect3 = makeFoodList().stream()
                 .collect(Collectors.toMap(food -> food.getName(),
